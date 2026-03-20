@@ -5,3 +5,4 @@ input/
 __pycache__/
 *.pyc
 .DS_Store
+wikiart-image-dataset/
