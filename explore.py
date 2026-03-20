@@ -166,6 +166,15 @@ def resolve_name(query: str, artist_keys: list) -> str:
     return best_match
 
 
-_api = WikiartAPI(skip_download=True)
-_resolved = resolve_name("Vincent Van Gogh", list(_api.dict_artist.keys()))
-download_collection(_resolved, credentials_file='credentials.json')
+# _api = WikiartAPI(skip_download=True)
+# _resolved = resolve_name("Vincent Van Gogh", list(_api.dict_artist.keys()))
+# download_collection(_resolved, credentials_file='credentials.json')
+
+def wrapper(nammo):
+
+    _api = WikiartAPI(skip_download=True)
+    _resolved = resolve_name(nammo, list(_api.dict_artist.keys()))
+    download_collection(_resolved, credentials_file='credentials.json')
+
+
+wrapper('Paul Cezanne')

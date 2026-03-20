@@ -107,3 +107,12 @@ build_feed(
     link='https://www.wikiart.org/en/vincent-van-gogh',                                                   
     description='Random Van Gogh paintings',                                                
 )      
+
+
+build_feed(              
+    'input/paul-cezanne.csv',                                                                         
+    name='paul-cezanne',                                                                                      
+    title='Paul Cezanne',                                                                               
+    link='https://www.wikiart.org/en/paul-cezanne/',                                                   
+    description='Random Cezanne paintings',                                                
+)      
