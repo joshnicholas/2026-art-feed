@@ -177,4 +177,14 @@ def wrapper(nammo):
     download_collection(_resolved, credentials_file='credentials.json')
 
 
-wrapper('Paul Cezanne')
+# wrapper('Paul Cezanne')
+
+# wrapper('Camille Pissarro')
+
+# wrapper('Georges Seurat')
+
+
+### Haven't scraped:
+# wrapper('Léo Gausson')
+
+# wrapper('Ferdinand Hodler')

@@ -116,3 +116,12 @@ build_feed(
     link='https://www.wikiart.org/en/paul-cezanne/',                                                   
     description='Random Cezanne paintings',                                                
 )      
+
+
+build_feed(              
+    ['input/paul-cezanne.csv','input/georges-seurat.csv','input/camille-pissarro.csv'],                                                                         
+    name='post-impressionists',                                                                                      
+    title='Random post impressionists',                                                                               
+    link='https://www.wikiart.org/en/georges-seurat/',                                                   
+    description='Random post impressionists',                                                
+)      
