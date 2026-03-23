@@ -1,7 +1,6 @@
 credentials.json
 .session_key
 .env
-input/
 __pycache__/
 *.pyc
 .DS_Store
