@@ -53,21 +53,10 @@ def build_feed(
         def detail_row(label, value):
             return f'<p><strong>{label}:</strong> {value}</p>' if value else ''
 
-        def fmt(val):
-            return val.replace('|', ', ') if isinstance(val, str) and val else ''
-
         description_html = f'''
 <img src="{row['image_url']}" alt="{item_title}" style="max-width:100%;" />
 {detail_row('Artist', artist)}
 {detail_row('Year', year)}
-{detail_row('Styles', fmt(row.get('styles')))}
-{detail_row('Genres', fmt(row.get('genres')))}
-{detail_row('Media', fmt(row.get('media')))}
-{detail_row('Tags', fmt(row.get('tags')))}
-{detail_row('Location', row.get('location'))}
-{detail_row('Galleries', fmt(row.get('galleries')))}
-{detail_row('Period', row.get('period'))}
-{detail_row('Description', row.get('description'))}
 '''.strip()
 
         SubElement(item, 'description').text = description_html

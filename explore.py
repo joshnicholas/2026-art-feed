@@ -11,20 +11,8 @@ from wikiartcrawler.wikiart_api import get_session_key, api_request
 
 logging.basicConfig(format='%(asctime)s %(levelname)-8s %(message)s', level=logging.INFO, datefmt='%Y-%m-%d %H:%M:%S')
 
-# Throttle per-painting detail requests and fail gracefully on rate limit errors.
-# The hourly cap (400 req/hr) means detail fetching may not complete for large artists —
-# on rate limit we return {} so basic painting data is still saved.
-_orig_get_painting_detail = _wikiart_module.get_painting_detail
-def _throttled_get_painting_detail(paint_id, session_key=None):
-    time.sleep(0.5)
-    try:
-        return _orig_get_painting_detail(paint_id, session_key)
-    except ValueError as e:
-        if 'limit exceeded' in str(e).lower() or '500' in str(e):
-            logging.warning(f'Rate limit hit fetching detail for {paint_id}, skipping detail')
-            return {}
-        raise
-_wikiart_module.get_painting_detail = _throttled_get_painting_detail
+# Skip per-painting detail requests entirely to avoid hitting API rate limits.
+_wikiart_module.get_painting_detail = lambda paint_id, session_key=None: {}
 
 SESSION_CACHE = '.session_key'
 
@@ -80,18 +68,12 @@ def download_collection(name: str, credentials_file: str = None):
     fieldnames = [
         'artist', 'artist_name',
         'title', 'year', 'wikiart_url', 'painting_url', 'image_url', 'width', 'height',
-        'styles', 'media', 'genres', 'tags', 'location', 'galleries', 'period', 'description',
     ]
     csv_exists = os.path.exists(csv_path)
     csv_file = open(csv_path, 'a', newline='', encoding='utf-8')
     writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
     if not csv_exists:
         writer.writeheader()
-
-    def join_list(val):
-        if isinstance(val, list):
-            return '|'.join(str(v) for v in val)
-        return val or ''
 
     total_rows = 0
     try:
@@ -106,10 +88,17 @@ def download_collection(name: str, credentials_file: str = None):
                     logging.warning(f'Could not find artist ID for {artist_url}, skipping')
                     continue
                 api.dict_artist[artist_url] = artist_id
-            painting_info = api.get_painting_info(artist_url)
+            try:
+                painting_info = api.get_painting_info(artist_url)
+            except ValueError as e:
+                if 'limit exceeded' in str(e).lower():
+                    logging.warning(f'Rate limit hit on {artist_url}, stopping for this session')
+                    return
+                raise
             if not painting_info:
                 logging.warning(f'No paintings found for {artist_url}')
                 continue
+            time.sleep(1)
 
             logging.info(f'Fetching metadata for {len(painting_info)} paintings from {artist_url}')
             for p in painting_info:
@@ -117,7 +106,6 @@ def download_collection(name: str, credentials_file: str = None):
                 if not image_url or 'FRAME-600x480' in image_url:
                     continue
 
-                detail = p.get('detail') or {}
                 painting_slug = p.get('url', '')
                 writer.writerow({
                     'artist': artist_url,
@@ -129,14 +117,6 @@ def download_collection(name: str, credentials_file: str = None):
                     'image_url': image_url,
                     'width': p.get('width', ''),
                     'height': p.get('height', ''),
-                    'styles': join_list(detail.get('styles')),
-                    'media': join_list(detail.get('media')),
-                    'genres': join_list(detail.get('genres')),
-                    'tags': join_list(detail.get('tags')),
-                    'location': detail.get('location', ''),
-                    'galleries': join_list(detail.get('galleries')),
-                    'period': detail.get('period', '') or '',
-                    'description': detail.get('description', ''),
                 })
                 csv_file.flush()
                 total_rows += 1
@@ -220,6 +200,8 @@ def wrapper(nammo, credentials_file: str = 'credentials.json'):
 
 wrapper('Post impressionism')
 
+wrapper('Les Fauves')
+
 wrapper('Henri Matisse')
 
 
@@ -250,3 +232,6 @@ new = ['Maxime Maufra',
 'Nadezda Petrovic',
 
        ]
+
+# for artist in new:
+#     wrapper(artist)
