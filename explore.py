@@ -2,11 +2,10 @@ import os
 import csv
 import json
 import logging
-import requests
-from tqdm import tqdm
+import unicodedata
 from wikiartcrawler import WikiartAPI, VALID_ARTIST_GROUPS
 from wikiartcrawler.artist_group import load_artists
-from wikiartcrawler.wikiart_api import get_session_key
+from wikiartcrawler.wikiart_api import get_session_key, api_request
 
 logging.basicConfig(format='%(asctime)s %(levelname)-8s %(message)s', level=logging.INFO, datefmt='%Y-%m-%d %H:%M:%S')
 
@@ -34,16 +33,15 @@ def load_session_key(credentials_file: str):
 
 
 def download_collection(name: str, credentials_file: str = None):
-    """Download all images for an artist or art group.
+    """Fetch painting metadata for an artist or art group and save to CSV.
 
     Args:
         name: Artist URL slug (e.g. 'claude-monet') or group name (e.g. 'impressionism').
     """
     is_group = name in VALID_ARTIST_GROUPS
     stem = name.replace(' ', '-').lower()
-    img_dir = os.path.join('input', stem)
     csv_path = os.path.join('input', f'{stem}.csv')
-    os.makedirs(img_dir, exist_ok=True)
+    os.makedirs('input', exist_ok=True)
 
     has_credentials = credentials_file is not None and os.path.exists(credentials_file)
     if has_credentials:
@@ -63,7 +61,7 @@ def download_collection(name: str, credentials_file: str = None):
         artists = [name]
 
     fieldnames = [
-        'file', 'artist', 'artist_name',
+        'artist', 'artist_name',
         'title', 'year', 'wikiart_url', 'painting_url', 'image_url', 'width', 'height',
         'styles', 'media', 'genres', 'tags', 'location', 'galleries', 'period', 'description',
     ]
@@ -81,34 +79,30 @@ def download_collection(name: str, credentials_file: str = None):
     total_rows = 0
     try:
         for artist_url in artists:
+            if artist_url not in api.dict_artist:
+                results = api_request(
+                    f'https://www.wikiart.org/en/api/2/PaintingSearch?term={artist_url}',
+                    api.session_key
+                )
+                artist_id = next((r['artistId'] for r in (results or []) if r.get('artistUrl') == artist_url), None)
+                if not artist_id:
+                    logging.warning(f'Could not find artist ID for {artist_url}, skipping')
+                    continue
+                api.dict_artist[artist_url] = artist_id
             painting_info = api.get_painting_info(artist_url)
             if not painting_info:
                 logging.warning(f'No paintings found for {artist_url}')
                 continue
 
-            logging.info(f'Downloading {len(painting_info)} paintings for {artist_url}')
-            for p in tqdm(painting_info, desc=artist_url):
+            logging.info(f'Fetching metadata for {len(painting_info)} paintings from {artist_url}')
+            for p in painting_info:
                 image_url = p.get('image', '')
                 if not image_url or 'FRAME-600x480' in image_url:
                     continue
 
-                ext = image_url.split('.')[-1].split('?')[0]
-                filename = f"{artist_url}__{p.get('url', p.get('id', 'unknown'))}.{ext}"
-                dest = os.path.join(img_dir, filename)
-
-                if not os.path.exists(dest):
-                    try:
-                        img_data = requests.get(image_url, timeout=30).content
-                        with open(dest, 'wb') as f:
-                            f.write(img_data)
-                    except Exception as e:
-                        logging.warning(f'Failed to download {image_url}: {e}')
-                        continue
-
                 detail = p.get('detail') or {}
                 painting_slug = p.get('url', '')
                 writer.writerow({
-                    'file': os.path.join(stem, filename),
                     'artist': artist_url,
                     'artist_name': p.get('artistName', ''),
                     'title': p.get('title', ''),
@@ -133,11 +127,17 @@ def download_collection(name: str, credentials_file: str = None):
         csv_file.close()
 
     if total_rows == 0:
-        logging.warning('No images downloaded.')
+        logging.warning('No metadata rows written.')
         return
 
     logging.info(f'Saved {total_rows} entries to {csv_path}')
-    logging.info(f'Images saved to {img_dir}/')
+
+
+def _normalize(s: str) -> str:
+    """Lowercase, strip accents, replace spaces with hyphens."""
+    s = unicodedata.normalize('NFD', s)
+    s = ''.join(c for c in s if unicodedata.category(c) != 'Mn')
+    return s.strip().lower().replace(' ', '-')
 
 
 def resolve_name(query: str, artist_keys: list) -> str:
@@ -146,22 +146,22 @@ def resolve_name(query: str, artist_keys: list) -> str:
     Tries an exact slug match first, then falls back to fuzzy matching
     against known artist slugs and group names.
     """
-    slug = query.strip().lower().replace(' ', '-')
+    slug = _normalize(query)
 
     if slug in VALID_ARTIST_GROUPS:
         return slug
     if slug in artist_keys:
         return slug
 
-    # fuzzy: find the closest match by counting matching slug parts
+    # fuzzy: find candidates where ALL query parts match slug tokens
     all_options = VALID_ARTIST_GROUPS + artist_keys
     query_parts = set(slug.split('-'))
-    scored = [(sum(p in candidate for p in query_parts), candidate) for candidate in all_options]
+    scored = [(sum(p in set(_normalize(candidate).split('-')) for p in query_parts), candidate) for candidate in all_options]
     scored.sort(key=lambda x: -x[0])
     best_score, best_match = scored[0]
 
-    if best_score == 0:
-        raise ValueError(f'No match found for "{query}". Available groups: {VALID_ARTIST_GROUPS}')
+    if best_score < len(query_parts):
+        raise ValueError(f'No match found for "{query}" (normalized: "{slug}"). Pass the WikiArt slug directly.')
 
     return best_match
 
@@ -170,11 +170,15 @@ def resolve_name(query: str, artist_keys: list) -> str:
 # _resolved = resolve_name("Vincent Van Gogh", list(_api.dict_artist.keys()))
 # download_collection(_resolved, credentials_file='credentials.json')
 
-def wrapper(nammo):
-
-    _api = WikiartAPI(skip_download=True)
-    _resolved = resolve_name(nammo, list(_api.dict_artist.keys()))
-    download_collection(_resolved, credentials_file='credentials.json')
+def wrapper(nammo, credentials_file: str = 'credentials.json'):
+    session_key = load_session_key(credentials_file)
+    _api = WikiartAPI(session_key=[session_key], skip_download=True)
+    try:
+        _resolved = resolve_name(nammo, list(_api.dict_artist.keys()))
+    except ValueError:
+        _resolved = _normalize(nammo)
+        logging.info(f'"{nammo}" not in artist dict, using slug "{_resolved}" directly')
+    download_collection(_resolved, credentials_file=credentials_file)
 
 
 # wrapper('Paul Cezanne')
@@ -188,3 +192,13 @@ def wrapper(nammo):
 # wrapper('Léo Gausson')
 
 # wrapper('Ferdinand Hodler')
+
+# wrapper('Maurice Prendergast')
+
+# wrapper('Pierre Bonnard')
+
+# wrapper('leo-gausson')
+
+wrapper('Walter Sickert')
+
+
