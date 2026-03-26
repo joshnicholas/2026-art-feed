@@ -2,12 +2,29 @@ import os
 import csv
 import json
 import logging
+import time
 import unicodedata
+import wikiartcrawler.wikiart_api as _wikiart_module
 from wikiartcrawler import WikiartAPI, VALID_ARTIST_GROUPS
 from wikiartcrawler.artist_group import load_artists
 from wikiartcrawler.wikiart_api import get_session_key, api_request
 
 logging.basicConfig(format='%(asctime)s %(levelname)-8s %(message)s', level=logging.INFO, datefmt='%Y-%m-%d %H:%M:%S')
+
+# Throttle per-painting detail requests and fail gracefully on rate limit errors.
+# The hourly cap (400 req/hr) means detail fetching may not complete for large artists —
+# on rate limit we return {} so basic painting data is still saved.
+_orig_get_painting_detail = _wikiart_module.get_painting_detail
+def _throttled_get_painting_detail(paint_id, session_key=None):
+    time.sleep(0.5)
+    try:
+        return _orig_get_painting_detail(paint_id, session_key)
+    except ValueError as e:
+        if 'limit exceeded' in str(e).lower() or '500' in str(e):
+            logging.warning(f'Rate limit hit fetching detail for {paint_id}, skipping detail')
+            return {}
+        raise
+_wikiart_module.get_painting_detail = _throttled_get_painting_detail
 
 SESSION_CACHE = '.session_key'
 
@@ -199,6 +216,37 @@ def wrapper(nammo, credentials_file: str = 'credentials.json'):
 
 # wrapper('leo-gausson')
 
-wrapper('Walter Sickert')
+# wrapper('Walter Sickert')
+
+wrapper('Post impressionism')
+
+wrapper('Henri Matisse')
 
 
+new = ['Maxime Maufra',
+       'Charles Reiffel',
+       'Charles Cottet',
+       'Paul Ranson',
+       'Louis Hayet',
+       'Henri de Toulouse-Lautrec',
+       'Suzanne Valadon',
+       'Gustave Loiseau',
+        'Józef Pankiewicz'       
+       'Roger Fry',
+       'Jules-Alexandre Grun',
+        'Georges Lacombe',
+        'Edouard Vuillard',
+'Janos Tornyai',
+    'Louis Valtat',
+
+    'Samuel Peploe',
+'John Duncan Fergusson',
+'Andre Derain',
+'Georges Braque',
+'Henri Manguin',
+'Alice Bailly',
+'Oleksa Novakivskyi',
+'Gheorghe Petrascu',
+'Nadezda Petrovic',
+
+       ]

@@ -4,89 +4,174 @@
     <title>Daily Art Feed</title>
     <link>https://www.wikiart.org</link>
     <description>A daily random selection of artworks from WikiArt</description>
-    <lastBuildDate>Thu, 26 Mar 2026 07:31:31 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 08:27:22 +0000</lastBuildDate>
     <language>en</language>
     <item>
-      <title>The Seducer — Walter Sickert (1930)</title>
-      <link>https://www.wikiart.org/en/walter-sickert/the-seducer</link>
-      <guid isPermaLink="true">https://www.wikiart.org/en/walter-sickert/the-seducer</guid>
-      <pubDate>Thu, 26 Mar 2026 07:31:31 +0000</pubDate>
-      <description>&lt;img src="https://uploads5.wikiart.org/images/walter-sickert/the-seducer.jpg" alt="The Seducer" style="max-width:100%;" /&gt;
-&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Walter Sickert&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1930&lt;/p&gt;
+      <title>Thatched Cottage — Gustave Loiseau (1903)</title>
+      <link>https://www.wikiart.org/en/gustave-loiseau/thatched-cottage-1903</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/gustave-loiseau/thatched-cottage-1903</guid>
+      <pubDate>Thu, 26 Mar 2026 08:27:22 +0000</pubDate>
+      <description>&lt;img src="https://uploads8.wikiart.org/images/gustave-loiseau/thatched-cottage-1903.jpg!Large.jpg" alt="Thatched Cottage" style="max-width:100%;" /&gt;
+&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Gustave Loiseau&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1903&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Styles:&lt;/strong&gt; Post-Impressionism&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Genres:&lt;/strong&gt; genre painting&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; male-portraits, female-portraits, furniture-and-decoration&lt;/p&gt;</description>
-      <media:content url="https://uploads5.wikiart.org/images/walter-sickert/the-seducer.jpg" medium="image"/>
-      <dc:creator>Walter Sickert</dc:creator>
-    </item>
-    <item>
-      <title>Nantasket — Maurice Prendergast (1905)</title>
-      <link>https://www.wikiart.org/en/maurice-prendergast/nantasket</link>
-      <guid isPermaLink="true">https://www.wikiart.org/en/maurice-prendergast/nantasket</guid>
-      <pubDate>Thu, 26 Mar 2026 07:31:31 +0000</pubDate>
-      <description>&lt;img src="https://uploads0.wikiart.org/images/maurice-prendergast/nantasket.jpg!Large.jpg" alt="Nantasket" style="max-width:100%;" /&gt;
-&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Maurice Prendergast&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1905&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Styles:&lt;/strong&gt; Impressionism&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Genres:&lt;/strong&gt; genre painting&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Media:&lt;/strong&gt; watercolor, paper&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; seas-and-oceans, leisure-and-sleep, Water, Geology&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Genres:&lt;/strong&gt; cityscape&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media:&lt;/strong&gt; oil, canvas&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; cottages-and-farmhouses, Natural landscape&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Galleries:&lt;/strong&gt; Private Collection&lt;/p&gt;</description>
-      <media:content url="https://uploads0.wikiart.org/images/maurice-prendergast/nantasket.jpg!Large.jpg" medium="image"/>
+      <media:content url="https://uploads8.wikiart.org/images/gustave-loiseau/thatched-cottage-1903.jpg!Large.jpg" medium="image"/>
+      <dc:creator>Gustave Loiseau</dc:creator>
+    </item>
+    <item>
+      <title>Railroad to Dieppe — Camille Pissarro (1886)</title>
+      <link>https://www.wikiart.org/en/camille-pissarro/railroad-to-dieppe-1886</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/camille-pissarro/railroad-to-dieppe-1886</guid>
+      <pubDate>Thu, 26 Mar 2026 08:27:22 +0000</pubDate>
+      <description>&lt;img src="https://uploads2.wikiart.org/images/camille-pissarro/railroad-to-dieppe-1886.jpg!Large.jpg" alt="Railroad to Dieppe" style="max-width:100%;" /&gt;
+&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Camille Pissarro&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1886&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Styles:&lt;/strong&gt; Pointillism, Neo-Impressionism&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Genres:&lt;/strong&gt; landscape&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media:&lt;/strong&gt; oil, canvas&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; railway, Normandy&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Galleries:&lt;/strong&gt; Private Collection&lt;/p&gt;</description>
+      <media:content url="https://uploads2.wikiart.org/images/camille-pissarro/railroad-to-dieppe-1886.jpg!Large.jpg" medium="image"/>
+      <dc:creator>Camille Pissarro</dc:creator>
+    </item>
+    <item>
+      <title>Portrait of French writer Octave Uzanne — Felix Vallotton (1892)</title>
+      <link>https://www.wikiart.org/en/felix-vallotton/portrait-of-french-writer-octave-uzanne-1892</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/felix-vallotton/portrait-of-french-writer-octave-uzanne-1892</guid>
+      <pubDate>Thu, 26 Mar 2026 08:27:22 +0000</pubDate>
+      <description>&lt;img src="https://uploads3.wikiart.org/images/felix-vallotton/portrait-of-french-writer-octave-uzanne-1892.jpg" alt="Portrait of French writer Octave Uzanne" style="max-width:100%;" /&gt;
+&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Felix Vallotton&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1892&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Styles:&lt;/strong&gt; Art Nouveau (Modern)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Genres:&lt;/strong&gt; portrait&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; male-portraits, famous-people&lt;/p&gt;</description>
+      <media:content url="https://uploads3.wikiart.org/images/felix-vallotton/portrait-of-french-writer-octave-uzanne-1892.jpg" medium="image"/>
+      <dc:creator>Felix Vallotton</dc:creator>
+    </item>
+    <item>
+      <title>The Public Soup Kitchen — Vincent van Gogh (1883)</title>
+      <link>https://www.wikiart.org/en/vincent-van-gogh/the-public-soup-kitchen-1883</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/vincent-van-gogh/the-public-soup-kitchen-1883</guid>
+      <pubDate>Thu, 26 Mar 2026 08:27:22 +0000</pubDate>
+      <description>&lt;img src="https://uploads7.wikiart.org/images/vincent-van-gogh/the-public-soup-kitchen-1883.jpg!Large.jpg" alt="The Public Soup Kitchen" style="max-width:100%;" /&gt;
+&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Vincent van Gogh&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1883&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Styles:&lt;/strong&gt; Realism&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Genres:&lt;/strong&gt; sketch and study&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media:&lt;/strong&gt; ink, paper&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; mealtimes, Snapshot&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Haag / Den Haag / La Haye / The HagueNetherlands&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Galleries:&lt;/strong&gt; Van Gogh Museum, Amsterdam, Netherlands&lt;/p&gt;</description>
+      <media:content url="https://uploads7.wikiart.org/images/vincent-van-gogh/the-public-soup-kitchen-1883.jpg!Large.jpg" medium="image"/>
+      <dc:creator>Vincent van Gogh</dc:creator>
+    </item>
+    <item>
+      <title>Portrait of French writer Henri Mazel — Felix Vallotton (1898)</title>
+      <link>https://www.wikiart.org/en/felix-vallotton/portrait-of-french-writer-henri-mazel-1898</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/felix-vallotton/portrait-of-french-writer-henri-mazel-1898</guid>
+      <pubDate>Thu, 26 Mar 2026 08:27:22 +0000</pubDate>
+      <description>&lt;img src="https://uploads1.wikiart.org/images/felix-vallotton/portrait-of-french-writer-henri-mazel-1898.jpg" alt="Portrait of French writer Henri Mazel" style="max-width:100%;" /&gt;
+&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Felix Vallotton&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1898&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Styles:&lt;/strong&gt; Art Nouveau (Modern)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Genres:&lt;/strong&gt; portrait&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; male-portraits, famous-people, Face, Head, Forehead&lt;/p&gt;</description>
+      <media:content url="https://uploads1.wikiart.org/images/felix-vallotton/portrait-of-french-writer-henri-mazel-1898.jpg" medium="image"/>
+      <dc:creator>Felix Vallotton</dc:creator>
+    </item>
+    <item>
+      <title>Autumn Landscape (Farm and pond) — Paul Gauguin (1877)</title>
+      <link>https://www.wikiart.org/en/paul-gauguin/autumn-landscape-farm-and-pond-1877</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/paul-gauguin/autumn-landscape-farm-and-pond-1877</guid>
+      <pubDate>Thu, 26 Mar 2026 08:27:22 +0000</pubDate>
+      <description>&lt;img src="https://uploads1.wikiart.org/images/paul-gauguin/autumn-landscape-farm-and-pond-1877.jpg!Large.jpg" alt="Autumn Landscape (Farm and pond)" style="max-width:100%;" /&gt;
+&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Paul Gauguin&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1877&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Styles:&lt;/strong&gt; Impressionism&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Genres:&lt;/strong&gt; landscape&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media:&lt;/strong&gt; oil, canvas&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; lakes-and-ponds, cottages-and-farmhouses, Rural area, Tree, Waterway, House&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; France&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Galleries:&lt;/strong&gt; Private Collection&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Period:&lt;/strong&gt; {'id': '57726d7dedc2cb3880b47d7e', 'title': 'Early works'}&lt;/p&gt;</description>
+      <media:content url="https://uploads1.wikiart.org/images/paul-gauguin/autumn-landscape-farm-and-pond-1877.jpg!Large.jpg" medium="image"/>
+      <dc:creator>Paul Gauguin</dc:creator>
+    </item>
+    <item>
+      <title>Woman Preparing a Meal — Vincent van Gogh (1885)</title>
+      <link>https://www.wikiart.org/en/vincent-van-gogh/woman-preparing-a-meal-1885</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/vincent-van-gogh/woman-preparing-a-meal-1885</guid>
+      <pubDate>Thu, 26 Mar 2026 08:27:22 +0000</pubDate>
+      <description>&lt;img src="https://uploads6.wikiart.org/images/vincent-van-gogh/woman-preparing-a-meal-1885.jpg!Large.jpg" alt="Woman Preparing a Meal" style="max-width:100%;" /&gt;
+&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Vincent van Gogh&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1885&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Styles:&lt;/strong&gt; Realism&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Genres:&lt;/strong&gt; sketch and study&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media:&lt;/strong&gt; chalk, paper&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; domestic-settings, fireplaces, Sketch&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Nunen / NuenenNetherlands&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Galleries:&lt;/strong&gt; Van Gogh Museum, Amsterdam, Netherlands&lt;/p&gt;</description>
+      <media:content url="https://uploads6.wikiart.org/images/vincent-van-gogh/woman-preparing-a-meal-1885.jpg!Large.jpg" medium="image"/>
+      <dc:creator>Vincent van Gogh</dc:creator>
+    </item>
+    <item>
+      <title>Columbus Circle (New York) — Maurice Prendergast (1903)</title>
+      <link>https://www.wikiart.org/en/maurice-prendergast/columbus-circle-new-york</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/maurice-prendergast/columbus-circle-new-york</guid>
+      <pubDate>Thu, 26 Mar 2026 08:27:22 +0000</pubDate>
+      <description>&lt;img src="https://uploads6.wikiart.org/images/maurice-prendergast/columbus-circle-new-york.jpg!Large.jpg" alt="Columbus Circle (New York)" style="max-width:100%;" /&gt;
+&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Maurice Prendergast&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1903&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Styles:&lt;/strong&gt; Post-Impressionism&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Genres:&lt;/strong&gt; genre painting&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media:&lt;/strong&gt; watercolor, paper&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; children, Textile&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Galleries:&lt;/strong&gt; Private Collection&lt;/p&gt;</description>
+      <media:content url="https://uploads6.wikiart.org/images/maurice-prendergast/columbus-circle-new-york.jpg!Large.jpg" medium="image"/>
       <dc:creator>Maurice Prendergast</dc:creator>
     </item>
     <item>
-      <title>The Terrace at Vernon — Pierre Bonnard (1939)</title>
-      <link>https://www.wikiart.org/en/pierre-bonnard/the-terrace-at-vernon-1939</link>
-      <guid isPermaLink="true">https://www.wikiart.org/en/pierre-bonnard/the-terrace-at-vernon-1939</guid>
-      <pubDate>Thu, 26 Mar 2026 07:31:31 +0000</pubDate>
-      <description>&lt;img src="https://uploads3.wikiart.org/images/pierre-bonnard/the-terrace-at-vernon-1939.jpg!Large.jpg" alt="The Terrace at Vernon" style="max-width:100%;" /&gt;
-&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Pierre Bonnard&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1939&lt;/p&gt;
+      <title>Gardener with a Wheelbarrow — Vincent van Gogh (1884)</title>
+      <link>https://www.wikiart.org/en/vincent-van-gogh/gardener-with-a-wheelbarrow-1884</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/vincent-van-gogh/gardener-with-a-wheelbarrow-1884</guid>
+      <pubDate>Thu, 26 Mar 2026 08:27:22 +0000</pubDate>
+      <description>&lt;img src="https://uploads5.wikiart.org/images/vincent-van-gogh/gardener-with-a-wheelbarrow-1884(1).jpg!Large.jpg" alt="Gardener with a Wheelbarrow" style="max-width:100%;" /&gt;
+&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Vincent van Gogh&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1884&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Styles:&lt;/strong&gt; Realism&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Genres:&lt;/strong&gt; sketch and study&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; gardens-and-parks, handwork, Tree&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Nunen / NuenenNetherlands&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Galleries:&lt;/strong&gt; Van Gogh Museum, Amsterdam, Netherlands&lt;/p&gt;</description>
+      <media:content url="https://uploads5.wikiart.org/images/vincent-van-gogh/gardener-with-a-wheelbarrow-1884(1).jpg!Large.jpg" medium="image"/>
+      <dc:creator>Vincent van Gogh</dc:creator>
+    </item>
+    <item>
+      <title>Pine Trees in Front of the Wall of the Asylum 4 — Vincent van Gogh (1889)</title>
+      <link>https://www.wikiart.org/en/vincent-van-gogh/pine-trees-in-front-of-the-wall-of-the-asylum-4-1889</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/vincent-van-gogh/pine-trees-in-front-of-the-wall-of-the-asylum-4-1889</guid>
+      <pubDate>Thu, 26 Mar 2026 08:27:22 +0000</pubDate>
+      <description>&lt;img src="https://uploads4.wikiart.org/images/vincent-van-gogh/pine-trees-in-front-of-the-wall-of-the-asylum-4-1889.jpg!Large.jpg" alt="Pine Trees in Front of the Wall of the Asylum 4" style="max-width:100%;" /&gt;
+&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Vincent van Gogh&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1889&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Styles:&lt;/strong&gt; Post-Impressionism&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Genres:&lt;/strong&gt; genre painting&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Media:&lt;/strong&gt; oil, canvas&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; Tree&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Galleries:&lt;/strong&gt; Metropolitan Museum of Art (Met), New York City, NY, US&lt;/p&gt;</description>
-      <media:content url="https://uploads3.wikiart.org/images/pierre-bonnard/the-terrace-at-vernon-1939.jpg!Large.jpg" medium="image"/>
-      <dc:creator>Pierre Bonnard</dc:creator>
-    </item>
-    <item>
-      <title>Chateau Noir — Paul Cezanne (1904)</title>
-      <link>https://www.wikiart.org/en/paul-cezanne/chateau-noir-1</link>
-      <guid isPermaLink="true">https://www.wikiart.org/en/paul-cezanne/chateau-noir-1</guid>
-      <pubDate>Thu, 26 Mar 2026 07:31:31 +0000</pubDate>
-      <description>&lt;img src="https://uploads7.wikiart.org/images/paul-cezanne/chateau-noir-1.jpg!Large.jpg" alt="Chateau Noir" style="max-width:100%;" /&gt;
-&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Paul Cezanne&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1904&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Styles:&lt;/strong&gt; Cubism&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Genres:&lt;/strong&gt; landscape&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Media:&lt;/strong&gt; oil, canvas&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; Tree&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Galleries:&lt;/strong&gt; Museum of Modern Art (MoMA), New York City, NY, US&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Period:&lt;/strong&gt; {'id': '57726d84edc2cb3880b48a65', 'title': 'Final period'}&lt;/p&gt;</description>
-      <media:content url="https://uploads7.wikiart.org/images/paul-cezanne/chateau-noir-1.jpg!Large.jpg" medium="image"/>
-      <dc:creator>Paul Cezanne</dc:creator>
-    </item>
-    <item>
-      <title>Sketch of a female figure — Walter Sickert (1888)</title>
-      <link>https://www.wikiart.org/en/walter-sickert/sketch-of-a-female-figure-1888</link>
-      <guid isPermaLink="true">https://www.wikiart.org/en/walter-sickert/sketch-of-a-female-figure-1888</guid>
-      <pubDate>Thu, 26 Mar 2026 07:31:31 +0000</pubDate>
-      <description>&lt;img src="https://uploads6.wikiart.org/images/walter-sickert/sketch-of-a-female-figure-1888.jpg" alt="Sketch of a female figure" style="max-width:100%;" /&gt;
-&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Walter Sickert&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1888&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Styles:&lt;/strong&gt; Impressionism&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Genres:&lt;/strong&gt; genre painting&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Genres:&lt;/strong&gt; sketch and study&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Media:&lt;/strong&gt; pencil, paper&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; female-portraits, group-portraits, fashion, Textile&lt;/p&gt;</description>
-      <media:content url="https://uploads6.wikiart.org/images/walter-sickert/sketch-of-a-female-figure-1888.jpg" medium="image"/>
-      <dc:creator>Walter Sickert</dc:creator>
+&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; forests-and-trees, Tree, Botany, Plant, Woody plant, Branch&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Saint-rémy-de-provenceFrance&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Galleries:&lt;/strong&gt; Van Gogh Museum, Amsterdam, Netherlands&lt;/p&gt;</description>
+      <media:content url="https://uploads4.wikiart.org/images/vincent-van-gogh/pine-trees-in-front-of-the-wall-of-the-asylum-4-1889.jpg!Large.jpg" medium="image"/>
+      <dc:creator>Vincent van Gogh</dc:creator>
     </item>
   </channel>
 </rss>

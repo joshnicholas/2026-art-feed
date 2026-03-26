@@ -1,5 +1,4 @@
-import csv
-import random
+import pandas as pd
 from datetime import datetime, timezone
 from email.utils import format_datetime
 from pathlib import Path
@@ -7,43 +6,13 @@ from xml.etree.ElementTree import Element, SubElement, tostring
 from xml.dom.minidom import parseString
 
 FEEDS_DIR = Path('feeds')
-INPUT_DIR = Path('input')
+PARQUET_PATH = Path('input/combined.parquet')
 
 
-def load_csv(csv_path):
-    with open(csv_path, newline='', encoding='utf-8') as f:
-        reader = csv.DictReader(f)
-        return [r for r in reader if r.get('image_url') and r.get('wikiart_url')]
-
-
-def pick_items(sample_size: int = 5) -> list:
-    """Pick items by randomly selecting a CSV, then a row from it, repeated sample_size times."""
-    csv_files = list(INPUT_DIR.glob('*.csv'))
-    if not csv_files:
-        raise FileNotFoundError(f'No CSV files found in {INPUT_DIR}/')
-
-    csv_data = {path: load_csv(path) for path in csv_files}
-    csv_data = {path: rows for path, rows in csv_data.items() if rows}
-
-    if not csv_data:
-        raise ValueError('No valid rows found in any CSV.')
-
-    sources = list(csv_data.values())
-    picks = []
-    seen_urls = set()
-    attempts = 0
-    max_attempts = sample_size * 20
-
-    while len(picks) < sample_size and attempts < max_attempts:
-        attempts += 1
-        rows = random.choice(sources)
-        row = random.choice(rows)
-        url = row.get('wikiart_url')
-        if url not in seen_urls:
-            seen_urls.add(url)
-            picks.append(row)
-
-    return picks
+def pick_items(sample_size: int = 10) -> list[dict]:
+    df = pd.read_parquet(PARQUET_PATH)
+    picks = df.sample(n=min(sample_size, len(df)))
+    return picks.to_dict(orient='records')
 
 
 def build_feed(
@@ -51,7 +20,7 @@ def build_feed(
     title: str = 'Art Feed',
     link: str = 'https://www.wikiart.org',
     description: str = 'A daily selection of artworks from WikiArt',
-    sample_size: int = 5,
+    sample_size: int = 10,
 ):
     picks = pick_items(sample_size)
     now = format_datetime(datetime.now(timezone.utc))
@@ -72,9 +41,9 @@ def build_feed(
     for row in picks:
         item = SubElement(channel, 'item')
 
-        item_title = row.get('title', 'Untitled')
-        artist = row.get('artist_name') or row.get('artist', '')
-        year = row.get('year', '')
+        item_title = row.get('title') or 'Untitled'
+        artist = row.get('artist_name') or row.get('artist') or ''
+        year = row.get('year') or ''
         item_title_str = f"{item_title} — {artist}" + (f" ({year})" if year else '')
         SubElement(item, 'title').text = item_title_str
         SubElement(item, 'link').text = row['wikiart_url']
@@ -85,7 +54,7 @@ def build_feed(
             return f'<p><strong>{label}:</strong> {value}</p>' if value else ''
 
         def fmt(val):
-            return val.replace('|', ', ') if val else ''
+            return val.replace('|', ', ') if isinstance(val, str) and val else ''
 
         description_html = f'''
 <img src="{row['image_url']}" alt="{item_title}" style="max-width:100%;" />
