@@ -17,13 +17,14 @@ PREFERRED_ARTISTS = [
 'Arthur Streeton','J.M.W. Turner','Grace Cossington Smith',
 'Albert Namatjira', 'Maurice Prendergast', 'Hans Heysen','Pierre Bonnard'
 ]
-BOOST = 3
+BOOST = 2
 
 
 def pick_items(sample_size: int = 10) -> list[dict]:
     df = pd.read_parquet(PARQUET_PATH)
     weights = df['artist_name'].map(lambda a: BOOST if a in PREFERRED_ARTISTS else 1)
     picks = df.sample(n=min(sample_size, len(df)), weights=weights)
+    print(picks)
     return picks.to_dict(orient='records')
 
 

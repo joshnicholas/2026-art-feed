@@ -274,9 +274,10 @@ def wrapper(nammo, credentials_file: str = 'credentials.json'):
 
 # thingos = ['Rembrandt', 'Edward Hopper', 'Katsushika Hokusai']
 
-thingos = ['Winslow Homer', 'Thomas Moran', 'Anthony van Dyck', 'Thomas Girtin',
-           'Paul Klee']
+# thingos = ['Winslow Homer', 'Thomas Moran', 'Anthony van Dyck', 'Thomas Girtin',
+#            'Paul Klee']
 
+thingos = ['Albrecht Durer', 'Sesshu Toyo']
 
 for thingo in thingos:
     wrapper(thingo)
