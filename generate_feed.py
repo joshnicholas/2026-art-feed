@@ -8,10 +8,22 @@ from xml.dom.minidom import parseString
 FEEDS_DIR = Path('feeds')
 PARQUET_PATH = Path('input/combined.parquet')
 
+# Artists listed here are BOOST x more likely to appear than others.
+PREFERRED_ARTISTS = [
+'Claude Monet',
+    'Paul Cezanne',
+    'Alfred Sisley', 
+'Edward Hopper', 'Katsushika Hokusai',
+'Arthur Streeton','J.M.W. Turner','Grace Cossington Smith',
+'Albert Namatjira', 'Maurice Prendergast', 'Hans Heysen'
+]
+BOOST = 3
 
-def pick_items(sample_size: int = 7) -> list[dict]:
+
+def pick_items(sample_size: int = 10) -> list[dict]:
     df = pd.read_parquet(PARQUET_PATH)
-    picks = df.sample(n=min(sample_size, len(df)))
+    weights = df['artist_name'].map(lambda a: BOOST if a in PREFERRED_ARTISTS else 1)
+    picks = df.sample(n=min(sample_size, len(df)), weights=weights)
     return picks.to_dict(orient='records')
 
 

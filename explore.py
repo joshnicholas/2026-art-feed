@@ -262,18 +262,18 @@ def wrapper(nammo, credentials_file: str = 'credentials.json'):
 
 # thingos = ['J.M.W. Turner', 'Johan Jongkind', 'Childe Hassam']
 
-thingos = []
-
-
-for thingo in thingos:
-    wrapper(thingo)
 
 # strayans = ['Dorrit Black','Arthur Streeton', 'Julian Ashton', 'Jane Sutherland',
 #             'Frederick McCubbin', 'Tom Roberts', 'Clara Southern',
 #             'David Davies','Charles Conder', 'John Brack', 'Hans Heysen',
 #             'Grace Cossington Smith', 'Ethel Carrick']
 
-strayans = ['John Glover']
+# thingos = ['John Glover', 'J. E. H. MacDonald', 'Frederick Varley', 'A.Y. Jackson',
+#             'Arthur Lismer', 'Frank Johnston', 'Franklin Carmichael']
 
-for stray in strayans:
-    wrapper(stray)
+
+thingos = ['Rembrandt', 'Edward Hopper', 'Katsushika Hokusai']
+
+
+for thingo in thingos:
+    wrapper(thingo)
