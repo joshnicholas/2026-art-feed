@@ -200,38 +200,80 @@ def wrapper(nammo, credentials_file: str = 'credentials.json'):
 
 # wrapper('Post impressionism')
 
-wrapper('Les Fauves')
+# wrapper('Les Fauves')
 
 # wrapper('Henri Matisse')
 
 
-new = ['Maxime Maufra',
-       'Charles Reiffel',
-       'Charles Cottet',
-       'Paul Ranson',
-       'Louis Hayet',
-       'Henri de Toulouse-Lautrec',
-       'Suzanne Valadon',
-       'Gustave Loiseau',
-        'Józef Pankiewicz'       
-       'Roger Fry',
-       'Jules-Alexandre Grun',
-        'Georges Lacombe',
-        'Edouard Vuillard',
-'Janos Tornyai',
-    'Louis Valtat',
+# new = ['Maxime Maufra',
+#        'Charles Reiffel',
+#        'Charles Cottet',
+#        'Paul Ranson',
+#        'Louis Hayet',
+#        'Henri de Toulouse-Lautrec',
+#        'Suzanne Valadon',
+#        'Gustave Loiseau',
+#         'Józef Pankiewicz'       
+#        'Roger Fry',
+#        'Jules-Alexandre Grun',
+#         'Georges Lacombe',
+#         'Edouard Vuillard',
+# 'Janos Tornyai',
+#     'Louis Valtat',
 
-    'Samuel Peploe',
-'John Duncan Fergusson',
-'Andre Derain',
-'Georges Braque',
-'Henri Manguin',
-'Alice Bailly',
-'Oleksa Novakivskyi',
-'Gheorghe Petrascu',
-'Nadezda Petrovic',
+#     'Samuel Peploe',
+# 'John Duncan Fergusson',
+# 'Andre Derain',
+# 'Georges Braque',
+# 'Henri Manguin',
+# 'Alice Bailly',
+# 'Oleksa Novakivskyi',
+# 'Gheorghe Petrascu',
+# 'Nadezda Petrovic',
 
-       ]
+#        ]
 
 # for artist in new:
 #     wrapper(artist)
+
+# wrapper('Albert Namatjira')
+
+# wrapper('Franklin Carmichael')
+
+
+
+# wrapper('Edouard Manet')
+
+# wrapper('Alfred Sisley')
+
+# wrapper('Claude Monet')
+
+# wrapper('Pierre-Auguste Renoir')
+
+# wrapper('Nicolae Vermont')
+
+# wrapper('Józef Pankiewicz')
+
+# wrapper('Lajos Tihanyi')
+
+# wrapper('Stefan Dimitrescu')
+
+# wrapper('Hendrick Avercamp')
+
+# thingos = ['J.M.W. Turner', 'Johan Jongkind', 'Childe Hassam']
+
+thingos = []
+
+
+for thingo in thingos:
+    wrapper(thingo)
+
+# strayans = ['Dorrit Black','Arthur Streeton', 'Julian Ashton', 'Jane Sutherland',
+#             'Frederick McCubbin', 'Tom Roberts', 'Clara Southern',
+#             'David Davies','Charles Conder', 'John Brack', 'Hans Heysen',
+#             'Grace Cossington Smith', 'Ethel Carrick']
+
+strayans = ['John Glover']
+
+for stray in strayans:
+    wrapper(stray)
