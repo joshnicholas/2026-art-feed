@@ -15,7 +15,7 @@ PREFERRED_ARTISTS = [
     'Alfred Sisley', 
 'Edward Hopper', 'Katsushika Hokusai',
 'Arthur Streeton','J.M.W. Turner','Grace Cossington Smith',
-'Albert Namatjira', 'Maurice Prendergast', 'Hans Heysen'
+'Albert Namatjira', 'Maurice Prendergast', 'Hans Heysen','Pierre Bonnard'
 ]
 BOOST = 3
 
