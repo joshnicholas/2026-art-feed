@@ -198,11 +198,11 @@ def wrapper(nammo, credentials_file: str = 'credentials.json'):
 
 # wrapper('Walter Sickert')
 
-wrapper('Post impressionism')
+# wrapper('Post impressionism')
 
 wrapper('Les Fauves')
 
-wrapper('Henri Matisse')
+# wrapper('Henri Matisse')
 
 
 new = ['Maxime Maufra',
