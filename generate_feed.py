@@ -9,7 +9,7 @@ FEEDS_DIR = Path('feeds')
 PARQUET_PATH = Path('input/combined.parquet')
 
 
-def pick_items(sample_size: int = 10) -> list[dict]:
+def pick_items(sample_size: int = 7) -> list[dict]:
     df = pd.read_parquet(PARQUET_PATH)
     picks = df.sample(n=min(sample_size, len(df)))
     return picks.to_dict(orient='records')
