@@ -100,4 +100,5 @@ build_feed(
     title='Daily Art Feed',
     link='https://www.wikiart.org',
     description='A daily random selection of artworks from WikiArt',
+    sample_size=5,
 )
