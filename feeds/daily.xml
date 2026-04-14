@@ -4,62 +4,62 @@
     <title>Daily Art Feed</title>
     <link>https://www.wikiart.org</link>
     <description>A daily random selection of artworks from WikiArt</description>
-    <lastBuildDate>Mon, 13 Apr 2026 18:24:24 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 03:02:42 +0000</lastBuildDate>
     <language>en</language>
     <item>
-      <title>Sunset Over a Meadow — Vincent van Gogh (1882)</title>
-      <link>https://www.wikiart.org/en/vincent-van-gogh/sunset-over-a-meadow-1882</link>
-      <guid isPermaLink="true">https://www.wikiart.org/en/vincent-van-gogh/sunset-over-a-meadow-1882</guid>
-      <pubDate>Mon, 13 Apr 2026 18:24:24 +0000</pubDate>
-      <description>&lt;img src=&quot;https://uploads4.wikiart.org/images/vincent-van-gogh/sunset-over-a-meadow-1882.jpg!Large.jpg&quot; alt=&quot;Sunset Over a Meadow&quot; style=&quot;max-width:100%;&quot; /&gt;
+      <title>The Rose Bush — Claude Monet (1926)</title>
+      <link>https://www.wikiart.org/en/claude-monet/the-rose-bush-1926</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/claude-monet/the-rose-bush-1926</guid>
+      <pubDate>Tue, 14 Apr 2026 03:02:42 +0000</pubDate>
+      <description>&lt;img src=&quot;https://uploads2.wikiart.org/images/claude-monet/the-rose-bush-1926.jpg!Large.jpg&quot; alt=&quot;The Rose Bush&quot; style=&quot;max-width:100%;&quot; /&gt;
+&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Claude Monet&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1926&lt;/p&gt;</description>
+      <media:content url="https://uploads2.wikiart.org/images/claude-monet/the-rose-bush-1926.jpg!Large.jpg" medium="image"/>
+      <dc:creator>Claude Monet</dc:creator>
+    </item>
+    <item>
+      <title>Cottage with Trees and Peasant Woman — Vincent van Gogh (1885)</title>
+      <link>https://www.wikiart.org/en/vincent-van-gogh/cottage-with-trees-and-peasant-woman-1885</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/vincent-van-gogh/cottage-with-trees-and-peasant-woman-1885</guid>
+      <pubDate>Tue, 14 Apr 2026 03:02:42 +0000</pubDate>
+      <description>&lt;img src=&quot;https://uploads5.wikiart.org/images/vincent-van-gogh/cottage-with-trees-and-peasant-woman-1885(1).jpg!Large.jpg&quot; alt=&quot;Cottage with Trees and Peasant Woman&quot; style=&quot;max-width:100%;&quot; /&gt;
 &lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Vincent van Gogh&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1882&lt;/p&gt;</description>
-      <media:content url="https://uploads4.wikiart.org/images/vincent-van-gogh/sunset-over-a-meadow-1882.jpg!Large.jpg" medium="image"/>
+&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1885&lt;/p&gt;</description>
+      <media:content url="https://uploads5.wikiart.org/images/vincent-van-gogh/cottage-with-trees-and-peasant-woman-1885(1).jpg!Large.jpg" medium="image"/>
       <dc:creator>Vincent van Gogh</dc:creator>
     </item>
     <item>
-      <title>The Poplars — Henri Martin (nan)</title>
-      <link>https://www.wikiart.org/en/henri-martin/the-poplars</link>
-      <guid isPermaLink="true">https://www.wikiart.org/en/henri-martin/the-poplars</guid>
-      <pubDate>Mon, 13 Apr 2026 18:24:24 +0000</pubDate>
-      <description>&lt;img src=&quot;https://uploads4.wikiart.org/images/henri-martin/the-poplars.jpg!Large.jpg&quot; alt=&quot;The Poplars&quot; style=&quot;max-width:100%;&quot; /&gt;
-&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Henri Martin&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; nan&lt;/p&gt;</description>
-      <media:content url="https://uploads4.wikiart.org/images/henri-martin/the-poplars.jpg!Large.jpg" medium="image"/>
-      <dc:creator>Henri Martin</dc:creator>
-    </item>
-    <item>
-      <title>Teahouse Umeyashiki — Katsushika Hokusai (1802)</title>
-      <link>https://www.wikiart.org/en/katsushika-hokusai/teahouse-umeyashiki</link>
-      <guid isPermaLink="true">https://www.wikiart.org/en/katsushika-hokusai/teahouse-umeyashiki</guid>
-      <pubDate>Mon, 13 Apr 2026 18:24:24 +0000</pubDate>
-      <description>&lt;img src=&quot;https://uploads8.wikiart.org/images/katsushika-hokusai/teahouse-umeyashiki.jpg&quot; alt=&quot;Teahouse Umeyashiki&quot; style=&quot;max-width:100%;&quot; /&gt;
-&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Katsushika Hokusai&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1802&lt;/p&gt;</description>
-      <media:content url="https://uploads8.wikiart.org/images/katsushika-hokusai/teahouse-umeyashiki.jpg" medium="image"/>
-      <dc:creator>Katsushika Hokusai</dc:creator>
-    </item>
-    <item>
-      <title>Still Life with Peaches — Pierre-Auguste Renoir (1916)</title>
-      <link>https://www.wikiart.org/en/pierre-auguste-renoir/still-life-with-peaches-1916</link>
-      <guid isPermaLink="true">https://www.wikiart.org/en/pierre-auguste-renoir/still-life-with-peaches-1916</guid>
-      <pubDate>Mon, 13 Apr 2026 18:24:24 +0000</pubDate>
-      <description>&lt;img src=&quot;https://uploads3.wikiart.org/images/pierre-auguste-renoir/still-life-with-peaches-1916.jpg!Large.jpg&quot; alt=&quot;Still Life with Peaches&quot; style=&quot;max-width:100%;&quot; /&gt;
-&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Pierre-Auguste Renoir&lt;/p&gt;
+      <title>The Reader — Grace Cossington Smith (1916)</title>
+      <link>https://www.wikiart.org/en/grace-cossington-smith/the-reader-1916</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/grace-cossington-smith/the-reader-1916</guid>
+      <pubDate>Tue, 14 Apr 2026 03:02:42 +0000</pubDate>
+      <description>&lt;img src=&quot;https://uploads0.wikiart.org/images/grace-cossington-smith/the-reader-1916.jpg!Large.jpg&quot; alt=&quot;The Reader&quot; style=&quot;max-width:100%;&quot; /&gt;
+&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Grace Cossington Smith&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1916&lt;/p&gt;</description>
-      <media:content url="https://uploads3.wikiart.org/images/pierre-auguste-renoir/still-life-with-peaches-1916.jpg!Large.jpg" medium="image"/>
-      <dc:creator>Pierre-Auguste Renoir</dc:creator>
+      <media:content url="https://uploads0.wikiart.org/images/grace-cossington-smith/the-reader-1916.jpg!Large.jpg" medium="image"/>
+      <dc:creator>Grace Cossington Smith</dc:creator>
     </item>
     <item>
-      <title>The Destiny — Henri Matisse (1943)</title>
-      <link>https://www.wikiart.org/en/henri-matisse/cut-outs</link>
-      <guid isPermaLink="true">https://www.wikiart.org/en/henri-matisse/cut-outs</guid>
-      <pubDate>Mon, 13 Apr 2026 18:24:24 +0000</pubDate>
-      <description>&lt;img src=&quot;https://uploads2.wikiart.org/images/henri-matisse/cut-outs.jpg!Large.jpg&quot; alt=&quot;The Destiny&quot; style=&quot;max-width:100%;&quot; /&gt;
-&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Henri Matisse&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1943&lt;/p&gt;</description>
-      <media:content url="https://uploads2.wikiart.org/images/henri-matisse/cut-outs.jpg!Large.jpg" medium="image"/>
-      <dc:creator>Henri Matisse</dc:creator>
+      <title>Landscape with Fir Trees — Konstantinos Parthenis (1902)</title>
+      <link>https://www.wikiart.org/en/konstantinos-parthenis/lan-with-firs-1902</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/konstantinos-parthenis/lan-with-firs-1902</guid>
+      <pubDate>Tue, 14 Apr 2026 03:02:42 +0000</pubDate>
+      <description>&lt;img src=&quot;https://uploads3.wikiart.org/images/konstantinos-parthenis/lan-with-firs-1902.jpg!Large.jpg&quot; alt=&quot;Landscape with Fir Trees&quot; style=&quot;max-width:100%;&quot; /&gt;
+&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Konstantinos Parthenis&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1902&lt;/p&gt;</description>
+      <media:content url="https://uploads3.wikiart.org/images/konstantinos-parthenis/lan-with-firs-1902.jpg!Large.jpg" medium="image"/>
+      <dc:creator>Konstantinos Parthenis</dc:creator>
+    </item>
+    <item>
+      <title>Scene of housekeeping. Four women are working — Katsushika Hokusai (nan)</title>
+      <link>https://www.wikiart.org/en/katsushika-hokusai/scene-of-housekeeping-four-women-are-working</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/katsushika-hokusai/scene-of-housekeeping-four-women-are-working</guid>
+      <pubDate>Tue, 14 Apr 2026 03:02:42 +0000</pubDate>
+      <description>&lt;img src=&quot;https://uploads7.wikiart.org/images/katsushika-hokusai/scene-of-housekeeping-four-women-are-working.jpg!Large.jpg&quot; alt=&quot;Scene of housekeeping. Four women are working&quot; style=&quot;max-width:100%;&quot; /&gt;
+&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Katsushika Hokusai&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; nan&lt;/p&gt;</description>
+      <media:content url="https://uploads7.wikiart.org/images/katsushika-hokusai/scene-of-housekeeping-four-women-are-working.jpg!Large.jpg" medium="image"/>
+      <dc:creator>Katsushika Hokusai</dc:creator>
     </item>
   </channel>
 </rss>
