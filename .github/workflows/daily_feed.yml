@@ -2,8 +2,8 @@ name: Generate Daily Art Feed
 
 on:
   schedule:
-    # 4am, 12pm, 8pm Brisbane time (AEST UTC+10, no DST)
-    - cron: '0 18,2,10 * * *'
+    # 4am, 8pm Brisbane time (AEST UTC+10, no DST)
+    - cron: '0 18,10 * * *'
   workflow_dispatch:  # allow manual runs
 
 jobs:
