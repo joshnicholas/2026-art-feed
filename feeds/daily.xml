@@ -4,62 +4,62 @@
     <title>Daily Art Feed</title>
     <link>https://www.wikiart.org</link>
     <description>A daily random selection of artworks from WikiArt</description>
-    <lastBuildDate>Mon, 11 May 2026 18:39:43 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 10:49:44 +0000</lastBuildDate>
     <language>en</language>
     <item>
-      <title>Cliff at Petit Ailly — Claude Monet (1896)</title>
-      <link>https://www.wikiart.org/en/claude-monet/cliff-at-petit-ailly</link>
-      <guid isPermaLink="true">https://www.wikiart.org/en/claude-monet/cliff-at-petit-ailly</guid>
-      <pubDate>Mon, 11 May 2026 18:39:43 +0000</pubDate>
-      <description>&lt;img src=&quot;https://uploads4.wikiart.org/images/claude-monet/cliff-at-petit-ailly.jpg!Large.jpg&quot; alt=&quot;Cliff at Petit Ailly&quot; style=&quot;max-width:100%;&quot; /&gt;
+      <title>Love — Raoul Dufy (1910)</title>
+      <link>https://www.wikiart.org/en/raoul-dufy/love-1910</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/raoul-dufy/love-1910</guid>
+      <pubDate>Tue, 12 May 2026 10:49:44 +0000</pubDate>
+      <description>&lt;img src=&quot;https://uploads0.wikiart.org/images/raoul-dufy/love-1910.jpg!Large.jpg&quot; alt=&quot;Love&quot; style=&quot;max-width:100%;&quot; /&gt;
+&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Raoul Dufy&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1910&lt;/p&gt;</description>
+      <media:content url="https://uploads0.wikiart.org/images/raoul-dufy/love-1910.jpg!Large.jpg" medium="image"/>
+      <dc:creator>Raoul Dufy</dc:creator>
+    </item>
+    <item>
+      <title>Pine Tree in the Arc Valley — Paul Cezanne (1885)</title>
+      <link>https://www.wikiart.org/en/paul-cezanne/pine-tree-in-the-arc-valley</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/paul-cezanne/pine-tree-in-the-arc-valley</guid>
+      <pubDate>Tue, 12 May 2026 10:49:44 +0000</pubDate>
+      <description>&lt;img src=&quot;https://uploads2.wikiart.org/images/paul-cezanne/pine-tree-in-the-arc-valley.jpg!Large.jpg&quot; alt=&quot;Pine Tree in the Arc Valley&quot; style=&quot;max-width:100%;&quot; /&gt;
+&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Paul Cezanne&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1885&lt;/p&gt;</description>
+      <media:content url="https://uploads2.wikiart.org/images/paul-cezanne/pine-tree-in-the-arc-valley.jpg!Large.jpg" medium="image"/>
+      <dc:creator>Paul Cezanne</dc:creator>
+    </item>
+    <item>
+      <title>Fuji seen through the Mannen bridge at Fukagawa — Katsushika Hokusai (nan)</title>
+      <link>https://www.wikiart.org/en/katsushika-hokusai/fuji-seen-through-the-mannen-bridge-at-fukagawa</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/katsushika-hokusai/fuji-seen-through-the-mannen-bridge-at-fukagawa</guid>
+      <pubDate>Tue, 12 May 2026 10:49:44 +0000</pubDate>
+      <description>&lt;img src=&quot;https://uploads1.wikiart.org/images/katsushika-hokusai/fuji-seen-through-the-mannen-bridge-at-fukagawa.jpg!Large.jpg&quot; alt=&quot;Fuji seen through the Mannen bridge at Fukagawa&quot; style=&quot;max-width:100%;&quot; /&gt;
+&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Katsushika Hokusai&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; nan&lt;/p&gt;</description>
+      <media:content url="https://uploads1.wikiart.org/images/katsushika-hokusai/fuji-seen-through-the-mannen-bridge-at-fukagawa.jpg!Large.jpg" medium="image"/>
+      <dc:creator>Katsushika Hokusai</dc:creator>
+    </item>
+    <item>
+      <title>Watermill at Gennep — Vincent van Gogh (1884)</title>
+      <link>https://www.wikiart.org/en/vincent-van-gogh/watermill-at-gennep-1884</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/vincent-van-gogh/watermill-at-gennep-1884</guid>
+      <pubDate>Tue, 12 May 2026 10:49:44 +0000</pubDate>
+      <description>&lt;img src=&quot;https://uploads3.wikiart.org/images/vincent-van-gogh/watermill-at-gennep-1884.jpg!Large.jpg&quot; alt=&quot;Watermill at Gennep&quot; style=&quot;max-width:100%;&quot; /&gt;
+&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Vincent van Gogh&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1884&lt;/p&gt;</description>
+      <media:content url="https://uploads3.wikiart.org/images/vincent-van-gogh/watermill-at-gennep-1884.jpg!Large.jpg" medium="image"/>
+      <dc:creator>Vincent van Gogh</dc:creator>
+    </item>
+    <item>
+      <title>Olive Trees (Study) — Claude Monet (1884)</title>
+      <link>https://www.wikiart.org/en/claude-monet/olive-trees-study</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/claude-monet/olive-trees-study</guid>
+      <pubDate>Tue, 12 May 2026 10:49:44 +0000</pubDate>
+      <description>&lt;img src=&quot;https://uploads1.wikiart.org/images/claude-monet/olive-trees-study.jpg!Large.jpg&quot; alt=&quot;Olive Trees (Study)&quot; style=&quot;max-width:100%;&quot; /&gt;
 &lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Claude Monet&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1896&lt;/p&gt;</description>
-      <media:content url="https://uploads4.wikiart.org/images/claude-monet/cliff-at-petit-ailly.jpg!Large.jpg" medium="image"/>
+&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1884&lt;/p&gt;</description>
+      <media:content url="https://uploads1.wikiart.org/images/claude-monet/olive-trees-study.jpg!Large.jpg" medium="image"/>
       <dc:creator>Claude Monet</dc:creator>
-    </item>
-    <item>
-      <title>The evening. Landscape with a lake. — Pyotr Konchalovsky (1939)</title>
-      <link>https://www.wikiart.org/en/pyotr-konchalovsky/the-evening-landscape-with-a-lake-1939</link>
-      <guid isPermaLink="true">https://www.wikiart.org/en/pyotr-konchalovsky/the-evening-landscape-with-a-lake-1939</guid>
-      <pubDate>Mon, 11 May 2026 18:39:43 +0000</pubDate>
-      <description>&lt;img src=&quot;https://uploads0.wikiart.org/images/pyotr-konchalovsky/the-evening-landscape-with-a-lake-1939.jpg&quot; alt=&quot;The evening. Landscape with a lake.&quot; style=&quot;max-width:100%;&quot; /&gt;
-&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Pyotr Konchalovsky&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1939&lt;/p&gt;</description>
-      <media:content url="https://uploads0.wikiart.org/images/pyotr-konchalovsky/the-evening-landscape-with-a-lake-1939.jpg" medium="image"/>
-      <dc:creator>Pyotr Konchalovsky</dc:creator>
-    </item>
-    <item>
-      <title>Self-portrait with plumed cap and lowered sabre — Rembrandt (1634)</title>
-      <link>https://www.wikiart.org/en/rembrandt/self-portrait-with-plumed-cap-and-lowered-sabre-1634</link>
-      <guid isPermaLink="true">https://www.wikiart.org/en/rembrandt/self-portrait-with-plumed-cap-and-lowered-sabre-1634</guid>
-      <pubDate>Mon, 11 May 2026 18:39:43 +0000</pubDate>
-      <description>&lt;img src=&quot;https://uploads6.wikiart.org/images/rembrandt/self-portrait-with-plumed-cap-and-lowered-sabre-1634.jpg!Large.jpg&quot; alt=&quot;Self-portrait with plumed cap and lowered sabre&quot; style=&quot;max-width:100%;&quot; /&gt;
-&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Rembrandt&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1634&lt;/p&gt;</description>
-      <media:content url="https://uploads6.wikiart.org/images/rembrandt/self-portrait-with-plumed-cap-and-lowered-sabre-1634.jpg!Large.jpg" medium="image"/>
-      <dc:creator>Rembrandt</dc:creator>
-    </item>
-    <item>
-      <title>Portrait of K.Medova — Igor Grabar (1932)</title>
-      <link>https://www.wikiart.org/en/igor-grabar/portrait-of-k-medova-1932</link>
-      <guid isPermaLink="true">https://www.wikiart.org/en/igor-grabar/portrait-of-k-medova-1932</guid>
-      <pubDate>Mon, 11 May 2026 18:39:43 +0000</pubDate>
-      <description>&lt;img src=&quot;https://uploads2.wikiart.org/images/igor-grabar/portrait-of-k-medova.jpg&quot; alt=&quot;Portrait of K.Medova&quot; style=&quot;max-width:100%;&quot; /&gt;
-&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Igor Grabar&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1932&lt;/p&gt;</description>
-      <media:content url="https://uploads2.wikiart.org/images/igor-grabar/portrait-of-k-medova.jpg" medium="image"/>
-      <dc:creator>Igor Grabar</dc:creator>
-    </item>
-    <item>
-      <title>Jumping Rope — Maurice Prendergast (1897)</title>
-      <link>https://www.wikiart.org/en/maurice-prendergast/jumping-rope</link>
-      <guid isPermaLink="true">https://www.wikiart.org/en/maurice-prendergast/jumping-rope</guid>
-      <pubDate>Mon, 11 May 2026 18:39:43 +0000</pubDate>
-      <description>&lt;img src=&quot;https://uploads3.wikiart.org/images/maurice-prendergast/jumping-rope.jpg!Large.jpg&quot; alt=&quot;Jumping Rope&quot; style=&quot;max-width:100%;&quot; /&gt;
-&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Maurice Prendergast&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1897&lt;/p&gt;</description>
-      <media:content url="https://uploads3.wikiart.org/images/maurice-prendergast/jumping-rope.jpg!Large.jpg" medium="image"/>
-      <dc:creator>Maurice Prendergast</dc:creator>
     </item>
   </channel>
 </rss>
