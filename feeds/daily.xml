@@ -4,62 +4,62 @@
     <title>Daily Art Feed</title>
     <link>https://www.wikiart.org</link>
     <description>A daily random selection of artworks from WikiArt</description>
-    <lastBuildDate>Thu, 21 May 2026 11:06:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 18:40:33 +0000</lastBuildDate>
     <language>en</language>
     <item>
-      <title>A Portrait of a Man with a Broad Brimmed Hat and a Ruff — Rembrandt (1638)</title>
-      <link>https://www.wikiart.org/en/rembrandt/a-portrait-of-a-man-with-a-broad-brimmed-hat-and-a-ruff-1638</link>
-      <guid isPermaLink="true">https://www.wikiart.org/en/rembrandt/a-portrait-of-a-man-with-a-broad-brimmed-hat-and-a-ruff-1638</guid>
-      <pubDate>Thu, 21 May 2026 11:06:38 +0000</pubDate>
-      <description>&lt;img src=&quot;https://uploads5.wikiart.org/images/rembrandt/a-portrait-of-a-man-with-a-broad-brimmed-hat-and-a-ruff-1638.jpg!Large.jpg&quot; alt=&quot;A Portrait of a Man with a Broad Brimmed Hat and a Ruff&quot; style=&quot;max-width:100%;&quot; /&gt;
+      <title>Portrait — Ilya Mashkov (1943)</title>
+      <link>https://www.wikiart.org/en/ilya-mashkov/portrait-1943</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/ilya-mashkov/portrait-1943</guid>
+      <pubDate>Thu, 21 May 2026 18:40:33 +0000</pubDate>
+      <description>&lt;img src=&quot;https://uploads6.wikiart.org/images/ilya-mashkov/portrait-1943.jpg!Large.jpg&quot; alt=&quot;Portrait&quot; style=&quot;max-width:100%;&quot; /&gt;
+&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Ilya Mashkov&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1943&lt;/p&gt;</description>
+      <media:content url="https://uploads6.wikiart.org/images/ilya-mashkov/portrait-1943.jpg!Large.jpg" medium="image"/>
+      <dc:creator>Ilya Mashkov</dc:creator>
+    </item>
+    <item>
+      <title>Woman at the fountain — Pierre-Auguste Renoir (1910)</title>
+      <link>https://www.wikiart.org/en/pierre-auguste-renoir/woman-at-the-fountain</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/pierre-auguste-renoir/woman-at-the-fountain</guid>
+      <pubDate>Thu, 21 May 2026 18:40:33 +0000</pubDate>
+      <description>&lt;img src=&quot;https://uploads5.wikiart.org/images/pierre-auguste-renoir/woman-at-the-fountain.jpg!Large.jpg&quot; alt=&quot;Woman at the fountain&quot; style=&quot;max-width:100%;&quot; /&gt;
+&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Pierre-Auguste Renoir&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1910&lt;/p&gt;</description>
+      <media:content url="https://uploads5.wikiart.org/images/pierre-auguste-renoir/woman-at-the-fountain.jpg!Large.jpg" medium="image"/>
+      <dc:creator>Pierre-Auguste Renoir</dc:creator>
+    </item>
+    <item>
+      <title>Young Girl in a Blue Hat — Pierre-Auguste Renoir (1881)</title>
+      <link>https://www.wikiart.org/en/pierre-auguste-renoir/young-girl-in-a-blue-hat-1881</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/pierre-auguste-renoir/young-girl-in-a-blue-hat-1881</guid>
+      <pubDate>Thu, 21 May 2026 18:40:33 +0000</pubDate>
+      <description>&lt;img src=&quot;https://uploads4.wikiart.org/images/pierre-auguste-renoir/young-girl-in-a-blue-hat-1881.jpg!Large.jpg&quot; alt=&quot;Young Girl in a Blue Hat&quot; style=&quot;max-width:100%;&quot; /&gt;
+&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Pierre-Auguste Renoir&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1881&lt;/p&gt;</description>
+      <media:content url="https://uploads4.wikiart.org/images/pierre-auguste-renoir/young-girl-in-a-blue-hat-1881.jpg!Large.jpg" medium="image"/>
+      <dc:creator>Pierre-Auguste Renoir</dc:creator>
+    </item>
+    <item>
+      <title>A Nurse and an Eating Child — Rembrandt (1635)</title>
+      <link>https://www.wikiart.org/en/rembrandt/a-nurse-and-an-eating-child</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/rembrandt/a-nurse-and-an-eating-child</guid>
+      <pubDate>Thu, 21 May 2026 18:40:33 +0000</pubDate>
+      <description>&lt;img src=&quot;https://uploads8.wikiart.org/images/rembrandt/a-nurse-and-an-eating-child.jpg!Large.jpg&quot; alt=&quot;A Nurse and an Eating Child&quot; style=&quot;max-width:100%;&quot; /&gt;
 &lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Rembrandt&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1638&lt;/p&gt;</description>
-      <media:content url="https://uploads5.wikiart.org/images/rembrandt/a-portrait-of-a-man-with-a-broad-brimmed-hat-and-a-ruff-1638.jpg!Large.jpg" medium="image"/>
+&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1635&lt;/p&gt;</description>
+      <media:content url="https://uploads8.wikiart.org/images/rembrandt/a-nurse-and-an-eating-child.jpg!Large.jpg" medium="image"/>
       <dc:creator>Rembrandt</dc:creator>
     </item>
     <item>
-      <title>Hoffmanneske scene — Paul Klee (1940)</title>
-      <link>https://www.wikiart.org/en/paul-klee/hoffmanneske-scene-1940</link>
-      <guid isPermaLink="true">https://www.wikiart.org/en/paul-klee/hoffmanneske-scene-1940</guid>
-      <pubDate>Thu, 21 May 2026 11:06:38 +0000</pubDate>
-      <description>&lt;img src=&quot;https://uploads7.wikiart.org/images/paul-klee/hoffmanneske-scene-1940(1).jpg!Large.jpg&quot; alt=&quot;Hoffmanneske scene&quot; style=&quot;max-width:100%;&quot; /&gt;
-&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Paul Klee&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1940&lt;/p&gt;</description>
-      <media:content url="https://uploads7.wikiart.org/images/paul-klee/hoffmanneske-scene-1940(1).jpg!Large.jpg" medium="image"/>
-      <dc:creator>Paul Klee</dc:creator>
-    </item>
-    <item>
-      <title>Bathing Tents, St. Malo — Maurice Prendergast (1907)</title>
-      <link>https://www.wikiart.org/en/maurice-prendergast/bathing-tents-st-malo-1907</link>
-      <guid isPermaLink="true">https://www.wikiart.org/en/maurice-prendergast/bathing-tents-st-malo-1907</guid>
-      <pubDate>Thu, 21 May 2026 11:06:38 +0000</pubDate>
-      <description>&lt;img src=&quot;https://uploads8.wikiart.org/images/maurice-prendergast/bathing-tents-st-malo-1907.jpg!Large.jpg&quot; alt=&quot;Bathing Tents, St. Malo&quot; style=&quot;max-width:100%;&quot; /&gt;
-&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Maurice Prendergast&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1907&lt;/p&gt;</description>
-      <media:content url="https://uploads8.wikiart.org/images/maurice-prendergast/bathing-tents-st-malo-1907.jpg!Large.jpg" medium="image"/>
-      <dc:creator>Maurice Prendergast</dc:creator>
-    </item>
-    <item>
-      <title>Woman with Guitar — Alexandru Ciucurencu (nan)</title>
-      <link>https://www.wikiart.org/en/alexandru-ciucurencu/woman-with-guitar</link>
-      <guid isPermaLink="true">https://www.wikiart.org/en/alexandru-ciucurencu/woman-with-guitar</guid>
-      <pubDate>Thu, 21 May 2026 11:06:38 +0000</pubDate>
-      <description>&lt;img src=&quot;https://uploads0.wikiart.org/images/alexandru-ciucurencu/woman-with-guitar.jpg!Large.jpg&quot; alt=&quot;Woman with Guitar&quot; style=&quot;max-width:100%;&quot; /&gt;
-&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Alexandru Ciucurencu&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; nan&lt;/p&gt;</description>
-      <media:content url="https://uploads0.wikiart.org/images/alexandru-ciucurencu/woman-with-guitar.jpg!Large.jpg" medium="image"/>
-      <dc:creator>Alexandru Ciucurencu</dc:creator>
-    </item>
-    <item>
-      <title>Student at a table by candlelight — Rembrandt (1642)</title>
-      <link>https://www.wikiart.org/en/rembrandt/student-at-a-table-by-candlelight-1642</link>
-      <guid isPermaLink="true">https://www.wikiart.org/en/rembrandt/student-at-a-table-by-candlelight-1642</guid>
-      <pubDate>Thu, 21 May 2026 11:06:38 +0000</pubDate>
-      <description>&lt;img src=&quot;https://uploads1.wikiart.org/images/rembrandt/student-at-a-table-by-candlelight-1642.jpg!Large.jpg&quot; alt=&quot;Student at a table by candlelight&quot; style=&quot;max-width:100%;&quot; /&gt;
-&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Rembrandt&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1642&lt;/p&gt;</description>
-      <media:content url="https://uploads1.wikiart.org/images/rembrandt/student-at-a-table-by-candlelight-1642.jpg!Large.jpg" medium="image"/>
-      <dc:creator>Rembrandt</dc:creator>
+      <title>Portrait of bearded man leaning on cradle — Pablo Picasso (1920)</title>
+      <link>https://www.wikiart.org/en/pablo-picasso/portrait-of-bearded-man-leaning-on-cradle-1920</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/pablo-picasso/portrait-of-bearded-man-leaning-on-cradle-1920</guid>
+      <pubDate>Thu, 21 May 2026 18:40:33 +0000</pubDate>
+      <description>&lt;img src=&quot;https://uploads4.wikiart.org/images/pablo-picasso/portrait-of-bearded-man-leaning-on-cradle-1920.jpg!Large.jpg&quot; alt=&quot;Portrait of bearded man leaning on cradle&quot; style=&quot;max-width:100%;&quot; /&gt;
+&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Pablo Picasso&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1920&lt;/p&gt;</description>
+      <media:content url="https://uploads4.wikiart.org/images/pablo-picasso/portrait-of-bearded-man-leaning-on-cradle-1920.jpg!Large.jpg" medium="image"/>
+      <dc:creator>Pablo Picasso</dc:creator>
     </item>
   </channel>
 </rss>
