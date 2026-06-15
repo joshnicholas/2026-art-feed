@@ -4,62 +4,62 @@
     <title>Daily Art Feed</title>
     <link>https://www.wikiart.org</link>
     <description>A daily random selection of artworks from WikiArt</description>
-    <lastBuildDate>Sun, 14 Jun 2026 18:31:36 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 12:03:49 +0000</lastBuildDate>
     <language>en</language>
     <item>
-      <title>Harvest at La Crau, with Montmajour in the Background — Vincent van Gogh (1888)</title>
-      <link>https://www.wikiart.org/en/vincent-van-gogh/harvest-at-la-crau-with-montmajour-in-the-background-1888</link>
-      <guid isPermaLink="true">https://www.wikiart.org/en/vincent-van-gogh/harvest-at-la-crau-with-montmajour-in-the-background-1888</guid>
-      <pubDate>Sun, 14 Jun 2026 18:31:36 +0000</pubDate>
-      <description>&lt;img src=&quot;https://uploads0.wikiart.org/images/vincent-van-gogh/harvest-at-la-crau-with-montmajour-in-the-background-1888.jpg!Large.jpg&quot; alt=&quot;Harvest at La Crau, with Montmajour in the Background&quot; style=&quot;max-width:100%;&quot; /&gt;
+      <title>Near Louveciennes — Alfred Sisley (1874)</title>
+      <link>https://www.wikiart.org/en/alfred-sisley/near-louveciennes-1874</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/alfred-sisley/near-louveciennes-1874</guid>
+      <pubDate>Mon, 15 Jun 2026 12:03:49 +0000</pubDate>
+      <description>&lt;img src=&quot;https://uploads7.wikiart.org/images/alfred-sisley/near-louveciennes-1874.jpg!Large.jpg&quot; alt=&quot;Near Louveciennes&quot; style=&quot;max-width:100%;&quot; /&gt;
+&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Alfred Sisley&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1874&lt;/p&gt;</description>
+      <media:content url="https://uploads7.wikiart.org/images/alfred-sisley/near-louveciennes-1874.jpg!Large.jpg" medium="image"/>
+      <dc:creator>Alfred Sisley</dc:creator>
+    </item>
+    <item>
+      <title>Landscape near Montmajour with Train — Vincent van Gogh (1888)</title>
+      <link>https://www.wikiart.org/en/vincent-van-gogh/landscape-near-montmajour-with-train-1888</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/vincent-van-gogh/landscape-near-montmajour-with-train-1888</guid>
+      <pubDate>Mon, 15 Jun 2026 12:03:49 +0000</pubDate>
+      <description>&lt;img src=&quot;https://uploads2.wikiart.org/images/vincent-van-gogh/landscape-near-montmajour-with-train-1888.jpg!Large.jpg&quot; alt=&quot;Landscape near Montmajour with Train&quot; style=&quot;max-width:100%;&quot; /&gt;
 &lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Vincent van Gogh&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1888&lt;/p&gt;</description>
-      <media:content url="https://uploads0.wikiart.org/images/vincent-van-gogh/harvest-at-la-crau-with-montmajour-in-the-background-1888.jpg!Large.jpg" medium="image"/>
+      <media:content url="https://uploads2.wikiart.org/images/vincent-van-gogh/landscape-near-montmajour-with-train-1888.jpg!Large.jpg" medium="image"/>
       <dc:creator>Vincent van Gogh</dc:creator>
     </item>
     <item>
-      <title>The village on the river, Bozel — Maxime Maufra (1914)</title>
-      <link>https://www.wikiart.org/en/maxime-maufra/the-village-on-the-river-bozel-1914</link>
-      <guid isPermaLink="true">https://www.wikiart.org/en/maxime-maufra/the-village-on-the-river-bozel-1914</guid>
-      <pubDate>Sun, 14 Jun 2026 18:31:36 +0000</pubDate>
-      <description>&lt;img src=&quot;https://uploads2.wikiart.org/images/maxime-maufra/the-village-on-the-river-bozel-1914.jpg!Large.jpg&quot; alt=&quot;The village on the river, Bozel&quot; style=&quot;max-width:100%;&quot; /&gt;
-&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Maxime Maufra&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1914&lt;/p&gt;</description>
-      <media:content url="https://uploads2.wikiart.org/images/maxime-maufra/the-village-on-the-river-bozel-1914.jpg!Large.jpg" medium="image"/>
-      <dc:creator>Maxime Maufra</dc:creator>
+      <title>View Across Stamford Brook Common — Camille Pissarro (1897)</title>
+      <link>https://www.wikiart.org/en/camille-pissarro/view-across-stamford-brook-common-1897</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/camille-pissarro/view-across-stamford-brook-common-1897</guid>
+      <pubDate>Mon, 15 Jun 2026 12:03:49 +0000</pubDate>
+      <description>&lt;img src=&quot;https://uploads8.wikiart.org/images/camille-pissarro/view-across-stamford-brook-common-1897.jpg!Large.jpg&quot; alt=&quot;View Across Stamford Brook Common&quot; style=&quot;max-width:100%;&quot; /&gt;
+&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Camille Pissarro&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1897&lt;/p&gt;</description>
+      <media:content url="https://uploads8.wikiart.org/images/camille-pissarro/view-across-stamford-brook-common-1897.jpg!Large.jpg" medium="image"/>
+      <dc:creator>Camille Pissarro</dc:creator>
     </item>
     <item>
-      <title>Portrait of Andrey Tasev Lyapchev — Ivan Mrkviсka (nan)</title>
-      <link>https://www.wikiart.org/en/ivan-mrkvicka/portret-na-andrey-tasev-lyapchev</link>
-      <guid isPermaLink="true">https://www.wikiart.org/en/ivan-mrkvicka/portret-na-andrey-tasev-lyapchev</guid>
-      <pubDate>Sun, 14 Jun 2026 18:31:36 +0000</pubDate>
-      <description>&lt;img src=&quot;https://uploads8.wikiart.org/00261/images/ivan-mrkvicka/ivan-mrkvicka-portret-of-andrey-lyapchev-jpg-640x640-q100.jpg!Large.jpg&quot; alt=&quot;Portrait of Andrey Tasev Lyapchev&quot; style=&quot;max-width:100%;&quot; /&gt;
-&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Ivan Mrkviсka&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; nan&lt;/p&gt;</description>
-      <media:content url="https://uploads8.wikiart.org/00261/images/ivan-mrkvicka/ivan-mrkvicka-portret-of-andrey-lyapchev-jpg-640x640-q100.jpg!Large.jpg" medium="image"/>
-      <dc:creator>Ivan Mrkviсka</dc:creator>
+      <title>A workshop. Tomatoes on the bench. — Pyotr Konchalovsky (1953)</title>
+      <link>https://www.wikiart.org/en/pyotr-konchalovsky/a-workshop-tomatoes-on-the-bench-1953</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/pyotr-konchalovsky/a-workshop-tomatoes-on-the-bench-1953</guid>
+      <pubDate>Mon, 15 Jun 2026 12:03:49 +0000</pubDate>
+      <description>&lt;img src=&quot;https://uploads8.wikiart.org/images/pyotr-konchalovsky/a-workshop-tomatoes-on-the-bench-1953.jpg&quot; alt=&quot;A workshop. Tomatoes on the bench.&quot; style=&quot;max-width:100%;&quot; /&gt;
+&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Pyotr Konchalovsky&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1953&lt;/p&gt;</description>
+      <media:content url="https://uploads8.wikiart.org/images/pyotr-konchalovsky/a-workshop-tomatoes-on-the-bench-1953.jpg" medium="image"/>
+      <dc:creator>Pyotr Konchalovsky</dc:creator>
     </item>
     <item>
-      <title>Nude — Ilya Mashkov (1918)</title>
-      <link>https://www.wikiart.org/en/ilya-mashkov/nude-1918</link>
-      <guid isPermaLink="true">https://www.wikiart.org/en/ilya-mashkov/nude-1918</guid>
-      <pubDate>Sun, 14 Jun 2026 18:31:36 +0000</pubDate>
-      <description>&lt;img src=&quot;https://uploads1.wikiart.org/images/ilya-mashkov/nude-1918.jpg&quot; alt=&quot;Nude&quot; style=&quot;max-width:100%;&quot; /&gt;
-&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Ilya Mashkov&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1918&lt;/p&gt;</description>
-      <media:content url="https://uploads1.wikiart.org/images/ilya-mashkov/nude-1918.jpg" medium="image"/>
-      <dc:creator>Ilya Mashkov</dc:creator>
-    </item>
-    <item>
-      <title>Gloucester Harbor — Childe Hassam (nan)</title>
-      <link>https://www.wikiart.org/en/childe-hassam/gloucester-harbor</link>
-      <guid isPermaLink="true">https://www.wikiart.org/en/childe-hassam/gloucester-harbor</guid>
-      <pubDate>Sun, 14 Jun 2026 18:31:36 +0000</pubDate>
-      <description>&lt;img src=&quot;https://uploads2.wikiart.org/images/childe-hassam/gloucester-harbor.jpg!Large.jpg&quot; alt=&quot;Gloucester Harbor&quot; style=&quot;max-width:100%;&quot; /&gt;
-&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Childe Hassam&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; nan&lt;/p&gt;</description>
-      <media:content url="https://uploads2.wikiart.org/images/childe-hassam/gloucester-harbor.jpg!Large.jpg" medium="image"/>
-      <dc:creator>Childe Hassam</dc:creator>
+      <title>Christ Being Nailed to the Cross — Albrecht Durer (1511)</title>
+      <link>https://www.wikiart.org/en/albrecht-durer/christ-being-nailed-to-the-cross-1511</link>
+      <guid isPermaLink="true">https://www.wikiart.org/en/albrecht-durer/christ-being-nailed-to-the-cross-1511</guid>
+      <pubDate>Mon, 15 Jun 2026 12:03:49 +0000</pubDate>
+      <description>&lt;img src=&quot;https://uploads4.wikiart.org/images/albrecht-durer/christ-being-nailed-to-the-cross-1511.jpg&quot; alt=&quot;Christ Being Nailed to the Cross&quot; style=&quot;max-width:100%;&quot; /&gt;
+&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Albrecht Durer&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Year:&lt;/strong&gt; 1511&lt;/p&gt;</description>
+      <media:content url="https://uploads4.wikiart.org/images/albrecht-durer/christ-being-nailed-to-the-cross-1511.jpg" medium="image"/>
+      <dc:creator>Albrecht Durer</dc:creator>
     </item>
   </channel>
 </rss>
